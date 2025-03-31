@@ -1,0 +1,114 @@
+body{
+  transform: translate(0%,0%);
+  padding: 0;
+  margin: 0;
+}
+.login {
+  background: #0B1512;
+  width: 100%;
+  height: 53.7vw;
+  overflow: hidden;
+}
+
+.loginh2 {
+  font-size: 50px;
+  transform: translate(5%,500%);
+  color: #fff;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.mainuser {
+  width: 35.5vw;
+  padding: 2.5vw;
+  transform: translate(130%,3%);
+  background: rgba(0, 255, 102, 0.05);
+  border: 1px solid rgba(0, 255, 102, 0.2);
+  box-shadow: 0 0 30px rgba(0, 255, 102, 0.1);
+  backdrop-filter: blur(10px);
+}
+
+.user {
+  margin: 2.5vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.login h2 {
+  color: #00ff66;
+  font-size: 2.2vw;
+  text-shadow: 0 0 10px rgba(0, 255, 102, 0.3);
+}
+
+.user input {
+  font-size: 1.3vw;
+  margin: 0.3vw 0;
+  width: 25.5vw;
+  padding: 0.5vw;
+  border-radius: 15px;
+  background: rgba(0, 255, 102, 0.1);
+  border: 1px solid rgba(0, 255, 102, 0.2);
+  color: #ffffff;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.user input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 1.2vw;
+}
+
+.user input:focus {
+  background: rgba(0, 255, 102, 0.15);
+  border: 1px solid #fff;
+  box-shadow: 0 0 15px rgba(0, 255, 102, 0.2);
+}
+
+.user button {
+  font-size: 1.5vw;
+  margin: 1.5vw 0;
+  padding: 0.2vw;
+  width: 25.5vw;
+  border-radius: 15px;
+  background: #00ff66;
+  color: #000000;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.user button:hover {
+  background: #ffffff;
+  box-shadow: 0 0 20px rgba(0, 255, 102, 0.3);
+}
+
+.forgot {
+  text-decoration: none;
+  color: #00ff66;
+  margin: 0 2.6vw;
+  font-size: 1.2vw;
+  transition: all 0.3s ease;
+}
+
+.forgot:hover {
+  text-decoration: underline;
+  color: #ffffff;
+  text-shadow: 0 0 10px rgba(0, 255, 102, 0.5);
+}
+
+.mainuser p {
+  color: #ffffff;
+  margin: 0 2.6vw;
+  font-size: 1.2vw;
+}
+
+#signup {
+  text-decoration: none;
+  color: #00ff66;
+  transition: all 0.3s ease;
+}
+
+#signup:hover {
+  text-decoration: underline;
+  color: #ffffff;
+  text-shadow: 0 0 10px rgba(0, 255, 102, 0.5);
+}
