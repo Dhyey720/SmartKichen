@@ -9,6 +9,6 @@ Team Name : TrishulX
 
 Team Member : 
 Prit Dedaniya : Full Stack
-Dhyey Chudasama : Prompt Engineer
+Dhyey Chudasama : MERN Stack Developer
 Jaymeen Devatka : Full Stack
 Meet Borad : AI Engineer
